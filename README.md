@@ -13,9 +13,15 @@ Implementieren Sie die folgenden Methoden:
 
 Erwartete Ausgabe der Klasse _LinkedStackDemo_ im Paket _exercise11_:
 ``` 
-Start
+Stack: 
+Pop: null
+Stack: D->C->B->A
+Pop: D
+Stack: C->B->A
+Pop: C
+Stack: B->A
 ```
-## Aufgabe 2. Dynamischer Warteschlange
+## Aufgabe 2. Dynamische Warteschlange
 Ändern Sie die Klasse _LinkedQueue_ im Paket _exercise11_.
 Sie soll eine dynamische Warteschlange (FIFO, First-In-First-Out) auf Basis von Referenzen definieren.
 Benutzen Sie dabei die _Node_ Klasse im Paket _exercise11_.
@@ -26,7 +32,19 @@ Implementieren Sie die folgenden Methoden:
 
 Erwartete Ausgabe der Klasse _LinkedQueueDemo_ im Paket _exercise11_:
 ``` 
-Start
+Queue: 
+Poll: null
+Queue: A->B->C->D->E
+Poll: A
+Poll: B
+Queue: C->D->E
+Queue: C->D->E->F
+Poll: C
+Poll: D
+Queue: E->F
+Queue: E->F->G
+Poll: E
+Queue: F->G
 ```
 ## Achtung! Achtung! Achtung!
 Wenn Sie alle Aufgaben gemacht haben, sollen Sie die Lösungen in _GitHub_ hochladen. 
